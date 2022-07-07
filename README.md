@@ -1,7 +1,7 @@
 # CreateThreadpoolWait_ShellcodeExecution_CSharp
 
 - Shellcode execution via CreateThreadpoolWait
-- Only tested on Win10/x64.
+- Tested on both Win10/x64 and x86 works fine.
 - Steps
 	1. Create an event with API "CreateEvent", and it return a event handle.
 	2. Allocate a memory region for shellcode, in this case is buf1.
@@ -44,7 +44,7 @@
 
 
 ## TO-DO list
-NONE
+1. Works on both x86/x64 - DONE
 
 
 ## Reference link:
@@ -57,4 +57,4 @@ NONE
 7. https://buaq.net/go-46885.html
 8. https://blog.51cto.com/u_13953961/3106435
 9. https://www.redteam101.tech/offensive-security/code-injection-process-injection/shellcode-execution-via-createthreadpoolwait
-10. https://www.ired.team/offensive-security/code-injection-process-injection/shellcode-execution-via-createthreadpoolwait
+10. 
